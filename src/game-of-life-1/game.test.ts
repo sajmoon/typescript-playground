@@ -1,4 +1,4 @@
-const game = require("./game");
+import * as game from "./game";
 
 test("init a game board of size 10", () => {
   const board = game.init();

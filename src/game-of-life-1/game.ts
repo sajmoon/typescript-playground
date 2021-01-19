@@ -1,6 +1,7 @@
 export function simulate() {
   let board = sample()
   loop(board)
+  return;
 }
 
 function loop(board: boolean[][], count: number = 0) {
